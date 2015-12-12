@@ -1,0 +1,36 @@
+<story path="stories/user/UserLogin.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="As a">user</inOrderTo>
+  <asA keyword="I want to">login</asA>
+  <iWantTo keyword="So that">I can get access to all user feature</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="user login from main page">
+<step outcome="successful">Given I am at Main Page</step>
+<step outcome="successful">And I am logged out</step>
+<step outcome="successful">When Fill login field &apos;usefOne&apos; and password field &apos;1&apos; and click Login Button</step>
+<step outcome="successful">Then I am logged in &apos;usefOne&apos;. I see user menu and avatar holder</step>
+</scenario>
+<scenario keyword="Scenario:" title="user login from static login page">
+<step outcome="pending" keyword="PENDING">Given static login page opened</step>
+<step outcome="pending" keyword="PENDING">When fill login field with &apos;login&apos; password field &apos;password&apos; and clock Login</step>
+<step outcome="pending" keyword="PENDING">Then I am logged in. I see user menu and avatar holder</step>
+<pendingMethod>@Given(&quot;static login page opened&quot;)
+@Pending
+public void givenStaticLoginPageOpened() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@When(&quot;fill login field with &apos;login&apos; password field &apos;password&apos; and clock Login&quot;)
+@Pending
+public void whenFillLoginFieldWithloginPasswordFieldpasswordAndClockLogin() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;I am logged in. I see user menu and avatar holder&quot;)
+@Pending
+public void thenIAmLoggedInISeeUserMenuAndAvatarHolder() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+</story>

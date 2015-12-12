@@ -1,0 +1,38 @@
+<xref>
+  <whenMade>1448658658082</whenMade>
+  <createdBy>JBehave</createdBy>
+  <metaFilter>-ignore</metaFilter>
+  <meta/>
+  <stories>
+    <story>
+      <description></description>
+      <narrative>In order to 
+As a user
+I want to login
+</narrative>
+      <name>UserLogin.story</name>
+      <path>stories/user/UserLogin.story</path>
+      <html>stories.user.UserLogin.html</html>
+      <meta></meta>
+      <scenarios>Scenario:user login from main page
+Given I am at Main Page
+And I am logged out
+When Fill login field &apos;usefOne&apos; and password field &apos;1&apos; and click Login Button
+Then I am logged in &apos;usefOne&apos;. I see user menu and avatar holder
+
+
+Scenario:user login from static login page
+Given static login page opened
+When fill login field with &apos;login&apos; password field &apos;password&apos; and clock Login
+Then I am logged in. I see user menu and avatar holder
+
+
+</scenarios>
+      <passed>true</passed>
+      <pending>true</pending>
+      <started>1448658593947</started>
+      <duration>57964</duration>
+    </story>
+  </stories>
+  <stepMatches/>
+</xref>

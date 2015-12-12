@@ -1,0 +1,22 @@
+{"xref": {
+  "whenMade": 1448658658082,
+  "createdBy": "JBehave",
+  "metaFilter": "-ignore",
+  "meta": [],
+  "stories": [
+    {
+      "description": "",
+      "narrative": "In order to \nAs a user\nI want to login\n",
+      "name": "UserLogin.story",
+      "path": "stories/user/UserLogin.story",
+      "html": "stories.user.UserLogin.html",
+      "meta": "",
+      "scenarios": "Scenario:user login from main page\nGiven I am at Main Page\nAnd I am logged out\nWhen Fill login field 'usefOne' and password field '1' and click Login Button\nThen I am logged in 'usefOne'. I see user menu and avatar holder\n\n\nScenario:user login from static login page\nGiven static login page opened\nWhen fill login field with 'login' password field 'password' and clock Login\nThen I am logged in. I see user menu and avatar holder\n\n\n",
+      "passed": true,
+      "pending": true,
+      "started": 1448658593947,
+      "duration": 57964
+    }
+  ],
+  "stepMatches": []
+}}

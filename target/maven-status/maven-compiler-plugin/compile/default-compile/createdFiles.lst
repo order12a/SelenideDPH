@@ -1,0 +1,9 @@
+com/deposit/pages/MainPage.class
+com/deposit/pages/LoginTip.class
+com/deposit/pages/DictionaryPage.class
+com/deposit/steps/EndUserSteps.class
+com/deposit/pages/Page.class
+com/deposit/pages/AnyPage.class
+com/deposit/steps/User.class
+com/deposit/pages/DictionaryPage$1.class
+com/deposit/pages/HomePage.class

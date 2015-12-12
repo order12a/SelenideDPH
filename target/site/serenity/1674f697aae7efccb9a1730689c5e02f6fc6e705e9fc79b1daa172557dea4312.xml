@@ -1,0 +1,64 @@
+<acceptance-test-run title="user login from main page" name="user login from main page" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="54705" timestamp="2015-11-27T23:09:54.108+02:00">
+  <user-story id="UserLogin" name="User login" path="stories/user/UserLogin.story"/>
+  <tags>
+    <tag name="User" type="feature"/>
+    <tag name="User/User login" type="story"/>
+  </tags>
+  <test-group name="Given I am at Main Page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="03857d8fa53c6553efbf1f63291ae9d2.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="17682">
+      <screenshots>
+        <screenshot image="18949ff1cb4c8224aa70e2408a2af9d5.png"/>
+      </screenshots>
+      <description>Check main page loaded</description>
+    </test-step>
+  </test-group>
+  <test-group name="And I am logged out" result="SUCCESS">
+    <screenshots>
+      <screenshot image="eeec6361d101008900f26a60471403c7.png"/>
+      <screenshot image="a1601f4e1cc872da6db7ab24bee519a9.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="4154">
+      <screenshots>
+        <screenshot image="b502cb8ad4d2bee42cd64637f7f11f63.png"/>
+        <screenshot image="34fece6dd71f7af0435541eeb513076d.png"/>
+      </screenshots>
+      <description>Is logged out</description>
+    </test-step>
+  </test-group>
+  <test-group name="When Fill login field &apos;usefOne&apos; and password field &apos;1&apos; and click Login Button" result="SUCCESS">
+    <screenshots>
+      <screenshot image="3095afb18580310e06499d9ca0ee2a7c.png"/>
+      <screenshot image="42074f7fc26c001166466f4013d988b2.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="8520">
+      <screenshots>
+        <screenshot image="9eb55d1fa1681d4b0feb0da953a7e7d0.png"/>
+        <screenshot image="0ec1ccd236f981f99d0a047b95894a65.png"/>
+      </screenshots>
+      <description>Login: &lt;span class=&apos;step-parameter&apos;&gt;usefOne, 1&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I am logged in &apos;usefOne&apos;. I see user menu and avatar holder" result="SUCCESS">
+    <screenshots>
+      <screenshot image="9c8f69df0207e9dbeb221ff201e93adf.png"/>
+      <screenshot image="755984382895c2e8dd21954264e3daf4.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="4523">
+      <screenshots>
+        <screenshot image="e0dc9678edbe2255c2c4b71af7f40df0.png"/>
+        <screenshot image="82be2101e3984dc9bc5df8c73fde1750.png"/>
+      </screenshots>
+      <description>Is logged in: &lt;span class=&apos;step-parameter&apos;&gt;usefOne&lt;/span&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="3772">
+      <screenshots>
+        <screenshot image="b21146be6f973befae21c9658adff80c.png"/>
+        <screenshot image="3e122f9acc870feca6d9c1ab1e480a29.png"/>
+      </screenshots>
+      <description>User menu displayed</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

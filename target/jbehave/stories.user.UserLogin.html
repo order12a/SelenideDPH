@@ -1,0 +1,40 @@
+<div class="story">
+<h1></h1>
+<div class="path">stories/user/UserLogin.story</div>
+<div class="narrative"><h2>Narrative:</h2>
+<div class="element inOrderTo"><span class="keyword inOrderTo">As a</span> user</div>
+<div class="element asA"><span class="keyword asA">I want to</span> login</div>
+<div class="element iWantTo"><span class="keyword iWantTo">So that</span> I can get access to all user feature</div>
+</div>
+<div class="scenario">
+<h2>Scenario: user login from main page</h2>
+<div class="step successful">Given I am at Main Page</div>
+<div class="step successful">And I am logged out</div>
+<div class="step successful">When Fill login field 'usefOne' and password field '1' and click Login Button</div>
+<div class="step successful">Then I am logged in 'usefOne'. I see user menu and avatar holder</div>
+</div>
+<div class="scenario">
+<h2>Scenario: user login from static login page</h2>
+<div class="step pending">Given static login page opened <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">When fill login field with 'login' password field 'password' and clock Login <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">Then I am logged in. I see user menu and avatar holder <span class="keyword pending">(PENDING)</span></div>
+<div><pre class="pending">@Given(&quot;static login page opened&quot;)
+@Pending
+public void givenStaticLoginPageOpened() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@When(&quot;fill login field with 'login' password field 'password' and clock Login&quot;)
+@Pending
+public void whenFillLoginFieldWithloginPasswordFieldpasswordAndClockLogin() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@Then(&quot;I am logged in. I see user menu and avatar holder&quot;)
+@Pending
+public void thenIAmLoggedInISeeUserMenuAndAvatarHolder() {
+  // PENDING
+}
+</pre></div>
+</div>
+</div>

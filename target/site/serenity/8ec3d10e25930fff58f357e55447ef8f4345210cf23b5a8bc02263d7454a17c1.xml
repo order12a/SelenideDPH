@@ -1,0 +1,19 @@
+<acceptance-test-run title="user login from static login page" name="user login from static login page" steps="3" successful="0" failures="0" skipped="0" ignored="0" pending="3" annotated-result="PENDING" result="PENDING" duration="3018" timestamp="2015-11-27T23:10:48.892+02:00">
+  <user-story id="UserLogin" name="User login" path="stories/user/UserLogin.story"/>
+  <tags>
+    <tag name="User" type="feature"/>
+    <tag name="User/User login" type="story"/>
+  </tags>
+  <test-step result="PENDING" duration="2200">
+    <screenshots>
+      <screenshot image="6055859aefa2e55a6ce7af2ec7811b86.png"/>
+    </screenshots>
+    <description>Given static login page opened</description>
+  </test-step>
+  <test-step result="PENDING" duration="1">
+    <description>When fill login field with &apos;login&apos; password field &apos;password&apos; and clock Login</description>
+  </test-step>
+  <test-step result="PENDING" duration="1">
+    <description>Then I am logged in. I see user menu and avatar holder</description>
+  </test-step>
+</acceptance-test-run>
